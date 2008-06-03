@@ -1,0 +1,4 @@
+HOMEPAGE="http://live.gnome.org/PyWebKitGtk"
+GIT_URI="git://github.com/jmalonzo/pywebkitgtk.git"
+
+inherit pygtk git

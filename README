@@ -1,0 +1,65 @@
+python-webkit
+------------------------------------------
+Python bindings for the WebKit/GTK+ browser engine.
+
+Runtime requirements:
+  cygwin-1.5.25-11
+  glib2-2.16.3-1
+  gtk2-x11-2.12.9-1
+  python-2.5.2-1
+  python-gobject2-2.14.2-1
+  python-gtk2-2.12.1-1
+  webkit-0.1.34279-1
+
+Build requirements:
+  autoconf2.5-2.61-1
+  automake1.10-1.10.1-1
+  binutils-20080523-1
+  cygport-0.3.11-1
+  gcc-core-3.4.4-3
+  libtool-2.2.2-2
+  pkg-config-0.21-1
+
+Canonical website:
+  http://live.gnome.org/PyWebKitGtk
+
+Canonical download:
+  http://github.com/jmalonzo/pywebkitgtk/tree/master
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-webkit-0.3.20080602-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-webkit-0.3.20080602-X.cygport all
+
+This will create:
+  /usr/src/python-webkit-0.3.20080602-X-src.tar.bz2
+  /usr/src/python-webkit-0.3.20080602-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/python2.5/site-packages/gtk-2.0/webkit.dll
+  /usr/lib/python2.5/site-packages/gtk-2.0/webkit.la
+  /usr/share/doc/python-webkit-0.3.20080602/AUTHORS
+  /usr/share/doc/python-webkit-0.3.20080602/COPYING
+  /usr/share/doc/python-webkit-0.3.20080602/INSTALL
+  /usr/share/doc/python-webkit-0.3.20080602/NEWS
+  /usr/share/doc/python-webkit-0.3.20080602/README
+  /usr/share/doc/python-webkit-0.3.20080602/TODO
+  /usr/share/pygtk/2.0/defs/webkit.defs
+
+------------------
+
+Port Notes:
+
+----- version 0.3.20080602-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
