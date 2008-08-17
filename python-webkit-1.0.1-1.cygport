@@ -1,0 +1,5 @@
+ORIG_PN="pywebkitgtk"
+inherit pygtk
+
+HOMEPAGE="http://code.google.com/p/pywebkitgtk/"
+SRC_URI="http://pywebkitgtk.googlecode.com/files/${ORIG_PN}-${PV}.tar.gz"
