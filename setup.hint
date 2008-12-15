@@ -1,4 +1,4 @@
 category: Gnome Python Web
-requires: cygwin glib2 gtk2-x11 python python-gobject2 python-gtk2 webkit
+requires: cygwin libglib2.0_0 libgtk2.0_0 libwebkit1.0_1 python python-gobject2 python-gtk2
 sdesc: "Python WebKit/GTK+ bindings"
 ldesc: "Python bindings for the WebKit/GTK+ browser engine."

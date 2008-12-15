@@ -4,20 +4,20 @@ Python bindings for the WebKit/GTK+ browser engine.
 
 Runtime requirements:
   cygwin-1.5.25-15
-  glib2-2.16.4-1
-  gtk2-x11-2.12.11-1
+  libglib2.0_0-2.18.3-1
+  libgtk2.0_0-2.14.5-1
+  libwebkit1.0_1-1.0.3.39090-1
   python-2.5.2-2
-  python-gobject2-2.14.2-1
-  python-gtk2-2.12.1-1
-  webkit-1.0.1-1
+  python-gobject2-2.15.4-1
+  python-gtk2-2.13.0-1
 
 Build requirements:
-  autoconf2.5-2.61-1
-  automake1.10-1.10.1-1
-  binutils-20080524-2
-  cygport-0.3.12-1
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.3-1
   gcc-core-3.4.4-3
-  libtool-2.2.2-2
+  libtool-2.2.6a-1
   pkg-config-0.23a-2
 
 Canonical website:
@@ -29,15 +29,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-webkit-1.0.1-X-src.tar.bz2
+  unpack python-webkit-1.0.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-webkit-1.0.1-X.cygport all
+  cygport ./python-webkit-1.0.2-X.cygport all
 
 This will create:
-  /usr/src/python-webkit-1.0.1-X-src.tar.bz2
-  /usr/src/python-webkit-1.0.1-X.tar.bz2
+  /usr/src/python-webkit-1.0.2-X-src.tar.bz2
+  /usr/src/python-webkit-1.0.2-X.tar.bz2
 
 -------------------------------------------
 
@@ -45,18 +45,21 @@ Files included in the binary package:
 
   /usr/lib/python2.5/site-packages/gtk-2.0/webkit.dll
   /usr/lib/python2.5/site-packages/gtk-2.0/webkit.la
-  /usr/share/doc/python-webkit-1.0.1/AUTHORS
-  /usr/share/doc/python-webkit-1.0.1/COPYING
-  /usr/share/doc/python-webkit-1.0.1/ChangeLog
-  /usr/share/doc/python-webkit-1.0.1/INSTALL
-  /usr/share/doc/python-webkit-1.0.1/MAINTAINERS
-  /usr/share/doc/python-webkit-1.0.1/NEWS
-  /usr/share/doc/python-webkit-1.0.1/README
+  /usr/share/doc/python-webkit-1.0.2/AUTHORS
+  /usr/share/doc/python-webkit-1.0.2/COPYING
+  /usr/share/doc/python-webkit-1.0.2/ChangeLog
+  /usr/share/doc/python-webkit-1.0.2/INSTALL
+  /usr/share/doc/python-webkit-1.0.2/MAINTAINERS
+  /usr/share/doc/python-webkit-1.0.2/NEWS
+  /usr/share/doc/python-webkit-1.0.2/README
   /usr/share/pygtk/2.0/defs/webkit.defs
 
 ------------------
 
 Port Notes:
+
+----- version 1.0.2-1 -----
+Version bump.
 
 ----- version 1.0.1-1 -----
 Version bump.
