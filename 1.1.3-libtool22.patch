@@ -1,0 +1,11 @@
+--- origsrc/pywebkitgtk-1.1.3/configure.ac	2009-03-17 23:43:38.000000000 -0500
++++ src/pywebkitgtk-1.1.3/configure.ac	2009-03-29 21:30:55.218750000 -0500
+@@ -31,6 +31,8 @@ AM_INIT_AUTOMAKE([foreign subdir-objects
+ 
+ AM_PROG_CC_C_O
+ AC_PROG_LIBTOOL
++dnl when using libtool 2.x create libtool early, because it's used in configure
++m4_ifdef([LT_OUTPUT], [LT_OUTPUT])
+ 
+ dnl check for python
+ AM_PATH_PYTHON(2.4)
