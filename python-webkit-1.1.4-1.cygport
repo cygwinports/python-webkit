@@ -3,7 +3,6 @@ inherit pygtk
 
 HOMEPAGE="http://code.google.com/p/pywebkitgtk/"
 SRC_URI="http://pywebkitgtk.googlecode.com/files/${ORIG_PN}-${PV}.tar.bz2"
-PATCH_URI="1.1.3-libtool22.patch
-           1.1.3-build.patch"
+PATCH_URI="1.1.3-build.patch"
 
 DIFF_EXCLUDES="webkit.defs"
