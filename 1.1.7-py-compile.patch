@@ -1,0 +1,11 @@
+--- origsrc/pywebkitgtk-1.1.7/Makefile.am	2009-11-05 03:19:44.276954800 -0600
++++ src/pywebkitgtk-1.1.7/Makefile.am	2009-11-05 03:22:03.379148000 -0600
+@@ -33,7 +33,7 @@ nodist_webkit_la_SOURCES = $(nodist_webk
+ # Python sources
+ webkit_py_sources += \
+ 	webkit/__init__.py
+-pkgpython_DATA = $(webkit_py_sources)
++pkgpython_PYTHON = $(webkit_py_sources)
+ 
+ # Build components
+ webkit_sources += \

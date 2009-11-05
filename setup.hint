@@ -1,4 +1,4 @@
 category: Gnome Python Web
-requires: libgcc1 libglib2.0_0 libgtk2.0_0 libwebkit1.0_2 python python-gobject2 python-gtk2
+requires: libgcc1 libglib2.0_0 libgtk2.0_0 libwebkit1.0_2 python python-gobject2.0 python-gtk2.0
 sdesc: "Python WebKit/GTK+ bindings"
 ldesc: "Python bindings for the WebKit/GTK+ browser engine."
