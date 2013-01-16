@@ -1,8 +1,16 @@
 ORIG_PN="pywebkitgtk"
 inherit pygtk
 
+NAME="python-webkit"
+VERSION=1.1.8
+RELEASE=2
+CATEGORY="Python"
+SUMMARY="Python WebKit/GTK+ bindings"
+DESCRIPTION="Python bindings for the WebKit/GTK+ browser engine."
 HOMEPAGE="http://code.google.com/p/pywebkitgtk/"
 SRC_URI="http://pywebkitgtk.googlecode.com/files/${ORIG_PN}-${PV}.tar.bz2"
 PATCH_URI="1.1.7-py-compile.patch"
 
 DIFF_EXCLUDES="webkit.defs"
+
+REQUIRES="python-gtk2.0"
